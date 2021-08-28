@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack64": "electron-packager . --platform=win32 --arch=x64 --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.3"
+  },
+  "dependencies": {
+    "electron-packager": "^15.3.0",
+    "uaup-js": "0.0.22"
+  }
+}
